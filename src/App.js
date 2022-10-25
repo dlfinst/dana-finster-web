@@ -2,7 +2,7 @@ import React, { Component } from "react"
 import logo from "./logo.svg"
 import "./App.css"
 
-class LambdaDemo extends Component {
+const App =  () {
   constructor(props) {
     super(props)
     this.state = { loading: false, msg: null }
